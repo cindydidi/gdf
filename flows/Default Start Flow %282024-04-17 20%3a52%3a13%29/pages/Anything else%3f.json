@@ -1,0 +1,62 @@
+{
+  "name": "ace31648-a589-419f-8ed5-a95d625cd7b0",
+  "displayName": "Anything else?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Have you any further queries for me?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "pnr_num",
+      "value": null
+    }, {
+      "parameter": "departure_city",
+      "value": null
+    }, {
+      "parameter": "destination_city",
+      "value": null
+    }, {
+      "parameter": "departure_date",
+      "value": null
+    }, {
+      "parameter": "return_date",
+      "value": null
+    }, {
+      "parameter": "passenger_name",
+      "value": null
+    }, {
+      "parameter": "last_page",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please let me know how I can be of service." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "69c4035d-acee-4439-98c0-5b0bc96388fd"
+  }, {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No worries, I'm glad to be of assistance today. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "adfcdcfa-fff9-4962-a782-057847356240"
+  } ]
+}

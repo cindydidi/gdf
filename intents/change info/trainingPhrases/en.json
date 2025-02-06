@@ -1,0 +1,46 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "will you help me ",
+      "auto": true
+    }, {
+      "text": "change"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "flight"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to change my flight"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I change my flight"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to change my flight"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "change"
+    }, {
+      "text": " my ",
+      "auto": true
+    }, {
+      "text": "flight"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

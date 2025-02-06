@@ -1,0 +1,27 @@
+{
+  "name": "bc67c6a5-b9e6-4c7e-89cd-e8214ce593df",
+  "displayName": "FAQs during Flight Status",
+  "transitionRoutes": [ {
+    "intent": "faq.cabin.limits",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "For this flight: You are only allowed a small cabin bag not exceeding 3kg and with the Sum of L + W + H (including the wheels) must be no more than 90cm (35 inches)." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Check flight status",
+    "name": "180d583b-2ff9-4bdd-b5c4-9e2fd8975199"
+  }, {
+    "intent": "faq.miles.upgrade",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "last_page",
+        "value": "Flight Status"
+      } ]
+    },
+    "targetFlow": "Upgrade",
+    "name": "911a998b-429c-4ced-a789-e9905a4aa018"
+  } ]
+}
