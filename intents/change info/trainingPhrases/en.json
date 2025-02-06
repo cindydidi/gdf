@@ -1,6 +1,38 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Can you help me change my reservation?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to make some changes to my flight"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to change my flight"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "change"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "flight"
+    }, {
+      "text": " booking",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "will you help me ",
       "auto": true
     }, {
