@@ -1,0 +1,26 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "香港",
+      "parameterId": "geo-city"
+    }, {
+      "text": "轉機"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "轉機",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "transit information",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

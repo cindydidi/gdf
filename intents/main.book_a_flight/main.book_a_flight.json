@@ -1,0 +1,19 @@
+{
+  "name": "9aba1621-3c49-43c5-9c69-04b34152abf2",
+  "displayName": "main.book_a_flight",
+  "parameters": [ {
+    "id": "destination_city",
+    "entityType": "@sys.geo-city"
+  }, {
+    "id": "departure_city",
+    "entityType": "@sys.geo-city"
+  }, {
+    "id": "departure_date",
+    "entityType": "@sys.date"
+  }, {
+    "id": "return_date",
+    "entityType": "@sys.date"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 15
+}

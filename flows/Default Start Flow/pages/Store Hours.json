@@ -1,0 +1,18 @@
+{
+  "name": "de74092f-2df9-436c-8151-83c7ae4351b3",
+  "displayName": "Store Hours",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Business hour: 9:00-17:30" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  }
+}

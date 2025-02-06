@@ -1,0 +1,101 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Lithium batteries",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Power",
+      "auto": true
+    }, {
+      "text": " Bank",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is ",
+      "auto": true
+    }, {
+      "text": "there",
+      "auto": true
+    }, {
+      "text": " a ",
+      "auto": true
+    }, {
+      "text": "limit",
+      "auto": true
+    }, {
+      "text": " on th ",
+      "auto": true
+    }, {
+      "text": "epower",
+      "auto": true
+    }, {
+      "text": " bank I can ",
+      "auto": true
+    }, {
+      "text": "bring",
+      "auto": true
+    }, {
+      "text": " into the ",
+      "auto": true
+    }, {
+      "text": "cabin",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I ",
+      "auto": true
+    }, {
+      "text": "bring",
+      "auto": true
+    }, {
+      "text": " portable batteries on ",
+      "auto": true
+    }, {
+      "text": "board",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What ",
+      "auto": true
+    }, {
+      "text": "about",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "power",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "banks",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

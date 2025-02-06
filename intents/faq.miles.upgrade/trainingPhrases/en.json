@@ -1,0 +1,34 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Can I upgrade to 1st ",
+      "auto": true
+    }, {
+      "text": "class",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "using",
+      "auto": true
+    }, {
+      "text": " my frequent ",
+      "auto": true
+    }, {
+      "text": "flyer",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "miles",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

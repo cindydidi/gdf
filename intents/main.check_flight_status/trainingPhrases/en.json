@@ -1,0 +1,71 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "what is my flight status please?  My flight reference number is "
+    }, {
+      "text": "D8K0T8",
+      "parameterId": "PNR_Number"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my PNR is ",
+      "auto": true
+    }, {
+      "text": "KD33DE",
+      "parameterId": "PNR_Number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Check flight status",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I would like to know if my flight is still on time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is my flight status?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is my flight on time?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is it still on time?  My PNR is "
+    }, {
+      "text": "Z453K9",
+      "parameterId": "PNR_Number"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My PNR is "
+    }, {
+      "text": "K4P89E",
+      "parameterId": "PNR_Number"
+    }, {
+      "text": ", what is the flight status?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

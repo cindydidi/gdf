@@ -1,0 +1,14 @@
+{
+  "name": "a4727747-ae1c-44ff-802b-ac36641d744e",
+  "displayName": "store.hours",
+  "parameters": [ {
+    "id": "pnr_number",
+    "entityType": "@PNR_Number"
+  }, {
+    "id": "pnr_number1",
+    "entityType": "@PNR_Number"
+  } ],
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 2
+}

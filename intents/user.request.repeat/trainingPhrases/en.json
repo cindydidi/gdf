@@ -1,0 +1,48 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "can you say that ",
+      "auto": true
+    }, {
+      "text": "again"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "repeat",
+      "auto": true
+    }, {
+      "text": " that",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "repeat",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "say ",
+      "auto": true
+    }, {
+      "text": "again",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
