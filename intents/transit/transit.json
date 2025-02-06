@@ -1,0 +1,10 @@
+{
+  "name": "f7d2c1a8-6df2-4b52-83f5-c7a3432e65ee",
+  "displayName": "transit",
+  "parameters": [ {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

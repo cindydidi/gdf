@@ -19,28 +19,5 @@
     } ],
     "repeatCount": 1,
     "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Can I change my flight"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "I need to change my flight"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "change"
-    }, {
-      "text": " my ",
-      "auto": true
-    }, {
-      "text": "flight"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
   } ]
 }
