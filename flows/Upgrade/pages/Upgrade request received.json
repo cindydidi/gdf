@@ -1,0 +1,28 @@
+{
+  "name": "4b1775e4-42a6-4bfa-93f4-abb62498ca1f",
+  "displayName": "Upgrade request received",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you. Confirming your request for upgrade has been received." ]
+      },
+      "languageCode": "en"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003eThank you, for membership number \u003csay-as interpret-as=\"verbatim\"\u003e$session.params.membership_num\u003c/say-as\u003e, your request for upgrade has been received.\u003c/speak\u003e"
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow (2024-04-17 20:52:13)",
+    "name": "fcf2e26d-d523-44ba-8aa1-67990d4535c1"
+  } ]
+}

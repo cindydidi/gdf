@@ -1,0 +1,32 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "What time do you ",
+      "auto": true
+    }, {
+      "text": "close"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are your ",
+      "auto": true
+    }, {
+      "text": "store"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "hours"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

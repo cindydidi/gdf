@@ -1,0 +1,71 @@
+{
+  "name": "c98e0564-7910-417c-862a-64d9e2d067ac",
+  "displayName": "Default Start Flow (2024-04-17 20:52:13)",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eHey there, I am a demo virtual agent for flight related queries.  How can I help you today?\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Good day, I am a demo virtual agent for flight related queries.  How can I help you today?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "93f46e97-4088-4996-9fb9-a0d7bacfe8d2"
+  }, {
+    "intent": "main.book_a_flight",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ticket Information",
+    "name": "bff47e2b-d9e8-41e7-b552-1c8e46125e61"
+  }, {
+    "intent": "main.check_flight_status",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Check flight status",
+    "name": "f2f752e6-1ac2-441a-95d8-67247217c417"
+  }, {
+    "condition": "$session.params.last_page = \"Flight Status\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Check flight status",
+    "name": "00ba9b0e-f300-4ceb-a757-ef906300c02b"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c01f30df-3875-40b5-900a-fa5b71ca314a"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a881e411-a74a-42d0-a86e-e049de94664d"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  },
+  "transitionRouteGroups": [ "General FAQs" ]
+}
