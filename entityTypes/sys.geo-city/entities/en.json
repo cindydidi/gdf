@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Hong Kong",
+    "synonyms": [ "HK", "HKG", "Hong Kong" ],
+    "languageCode": "en"
+  }, {
+    "value": "Singapore",
+    "synonyms": [ "SGP", "SIN", "Singapore" ],
+    "languageCode": "en"
+  } ]
+}
